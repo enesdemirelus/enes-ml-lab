@@ -10,7 +10,7 @@ export default function Home() {
     <div className="flex flex-col justify-center items-center h-screen px-4 text-center">
       <Image src={logo} alt="Enes ML Lab Logo" className="w-30 h-30" priority />
 
-      <hr className="mt-1 border-t border-gray-300 dark:border-gray-600 w-100" />
+      <div className="w-[120%] max-w-xs h-px bg-gray-300 dark:bg-gray-600 mb-4" />
 
       <h1 className={`${lato.className} text-4xl mt-3`}>Hello Friend! 👋</h1>
 
