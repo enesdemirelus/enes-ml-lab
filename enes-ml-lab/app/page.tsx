@@ -1,4 +1,5 @@
 import { Oldenburg } from "next/font/google";
+import ThemeToggle from "./components/ThemeToggle";
 
 const lato = Oldenburg({ subsets: ["latin"], weight: ["400"] });
 
@@ -15,6 +16,7 @@ export default function Home() {
           I will showcase some of my Machine Learning Projects here.
         </h3>
         <h2 className={`${lato.className} text-xl m-2`}>STAY TUNED ... ⏳</h2>
+        <ThemeToggle></ThemeToggle>
       </div>
     </>
   );
