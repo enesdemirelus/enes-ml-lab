@@ -1,6 +1,5 @@
 import React from "react";
 import { Card, CardContent } from "@/components/ui/card";
-import ThemeToggle from "../components/ThemeToggle";
 
 const MainPage = () => {
   return (
