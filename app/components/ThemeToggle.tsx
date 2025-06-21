@@ -2,9 +2,6 @@
 
 import { useTheme } from "next-themes";
 import { Button } from "@/components/ui/button";
-import { Oldenburg } from "next/font/google";
-
-const lato = Oldenburg({ subsets: ["latin"], weight: ["400"] });
 
 const ThemeToggle = () => {
   const { theme, setTheme } = useTheme();
@@ -17,13 +14,13 @@ const ThemeToggle = () => {
     <Button
       type="button"
       onClick={toggleTheme}
-      className={`${lato.className} text-gray-900 bg-white dark:bg-gray-800 dark:text-white 
+      className="text-gray-900 bg-white dark:bg-gray-800 dark:text-white 
       border border-gray-300 dark:border-gray-600 
       rounded-lg text-sm px-5 py-2.5 me-2 mb-2 font-medium 
       transition-all duration-200 ease-in-out 
       transform hover:scale-105 active:scale-95 
       hover:bg-gray-100 dark:hover:bg-gray-700 
-      focus:outline-none`}
+      focus:outline-none"
     >
       {theme === "light" ? "☀️ Light Mode ☀️" : "🌕 Dark Mode 🌕"}
     </Button>
