@@ -32,7 +32,7 @@ export default function Home() {
         I will showcase some of my Machine Learning Projects here.
       </h3>
       {/* <h2 className={`${lato.className} text-xl mt-4`}>STAY TUNED ... ⏳</h2> */}
-      <Link href="main-page">
+      <Link href="enes-ml-lab/main-page">
         <Button className="m-2">Go to main menu!</Button>
       </Link>
 

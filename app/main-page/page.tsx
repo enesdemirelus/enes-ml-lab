@@ -8,14 +8,14 @@ const cardItems = [
     name: "Movie Recommender",
     url: "/ml-projects/movie-recommender",
   },
-  { name: "Project 2", url: null },
-  { name: "Project 3", url: null },
-  { name: "Project 4", url: null },
-  { name: "Project 5", url: null },
-  { name: "Project 6", url: null },
-  { name: "Project 7", url: null },
-  { name: "Project 8", url: null },
-  { name: "Project 9", url: null },
+  { name: "Project 2: Coming Soon...", url: null },
+  { name: "Project 3: Coming Soon...", url: null },
+  { name: "Project 4: Coming Soon...", url: null },
+  { name: "Project 5: Coming Soon...", url: null },
+  { name: "Project 6: Coming Soon...", url: null },
+  { name: "Project 7: Coming Soon...", url: null },
+  { name: "Project 8: Coming Soon...", url: null },
+  { name: "Project 9: Coming Soon...", url: null },
 ];
 
 const MainPage = () => {
@@ -33,7 +33,7 @@ const MainPage = () => {
                 className="w-full h-40 transition-all duration-200 ease-in-out transform hover:scale-105 active:scale-95 cursor-pointer"
               >
                 <CardContent className="h-full flex items-center justify-center">
-                  <h1 className="text-center text-xl font-medium">
+                  <h1 className="text-center text-2xl font-medium">
                     {item.name}
                   </h1>
                 </CardContent>
