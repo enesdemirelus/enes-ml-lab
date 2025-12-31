@@ -5,10 +5,13 @@ import ThemeToggle from "../components/ThemeToggle";
 
 const cardItems = [
   {
-    name: "Movie Recommender",
-    url: "/ml-projects/movie-recommender",
+    name: "Age Estimator",
+    url: "https://www.youtube.com/watch?v=w_g_y8mQuu0",
   },
-  { name: "Project 2: Coming Soon...", url: null },
+  {
+    name: "Turkish Name Classifier",
+    url: "https://www.youtube.com/watch?v=U1I49a3URWw",
+  },
   { name: "Project 3: Coming Soon...", url: null },
   { name: "Project 4: Coming Soon...", url: null },
   { name: "Project 5: Coming Soon...", url: null },
@@ -41,7 +44,7 @@ const MainPage = () => {
             );
 
             return item.url ? (
-              <Link key={index} href={item.url}>
+              <Link key={index} href={item.url} target="blank">
                 {cardContent}
               </Link>
             ) : (
