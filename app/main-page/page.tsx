@@ -12,8 +12,14 @@ const cardItems = [
     name: "Turkish Name Classifier",
     url: "https://www.youtube.com/watch?v=U1I49a3URWw",
   },
-  { name: "Project 3: Coming Soon...", url: null },
-  { name: "Project 4: Coming Soon...", url: null },
+  {
+    name: "Movie Recommender",
+    url: "https://www.youtube.com/watch?v=gcFaCIdtQUY",
+  },
+  {
+    name: "Biometric Attribute Classification",
+    url: "https://www.youtube.com/watch?v=hJq4nrujeUc",
+  },
   { name: "Project 5: Coming Soon...", url: null },
   { name: "Project 6: Coming Soon...", url: null },
   { name: "Project 7: Coming Soon...", url: null },
