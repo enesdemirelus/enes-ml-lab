@@ -10,12 +10,10 @@ const ubuntu = Ubuntu({ subsets: ["latin"], weight: ["400", "500", "700"] });
 export default function Home() {
   return (
     <div className="min-h-screen flex items-center justify-center p-6 relative">
-      {/* Theme Toggle */}
-      <div className="absolute top-6 right-6">
+      <div className="absolute top-4 right-4">
         <ThemeToggle />
       </div>
 
-      {/* Main Content */}
       <div className="max-w-3xl w-full">
         <div className="flex flex-col items-center text-center space-y-8">
           {/* Logo */}
@@ -28,7 +26,6 @@ export default function Home() {
             />
           </div>
 
-          {/* Greeting */}
           <div>
             <h1
               className={`${ubuntu.className} text-5xl sm:text-6xl font-bold tracking-tight mb-4`}
@@ -38,7 +35,6 @@ export default function Home() {
             <div className="w-24 h-1 bg-gradient-to-r from-transparent via-gray-400 dark:via-gray-600 to-transparent mx-auto" />
           </div>
 
-          {/* Introduction */}
           <div className="space-y-6 max-w-2xl">
             <p
               className={`${ubuntu.className} text-xl sm:text-2xl leading-relaxed font-medium`}
@@ -50,7 +46,9 @@ export default function Home() {
               className={`${ubuntu.className} text-lg sm:text-xl leading-relaxed text-gray-700 dark:text-gray-300`}
             >
               I&apos;m a{" "}
-              <span className="font-semibold">Math and Computer Science</span>{" "}
+              <span className="font-semibold">
+                Mathematics and Computer Science
+              </span>{" "}
               student 👨‍💻 at{" "}
               <a
                 href="https://www.depaul.edu"
@@ -73,14 +71,15 @@ export default function Home() {
             </p>
           </div>
 
-          {/* CTA Button */}
-          <div className="pt-4">
+          <div className="pt-4 flex gap-4">
             <Link href="enes-ml-lab/main-page">
-              <Button>Explore Projects →</Button>
+              <Button>Explore Projects 👨🏻‍💻</Button>
+            </Link>
+            <Link href="enes-ml-lab/lab-notes">
+              <Button>Lab Notes 📝</Button>
             </Link>
           </div>
 
-          {/* Personal Website Link */}
           <p
             className={`${ubuntu.className} text-sm sm:text-base text-gray-500 dark:text-gray-400 pt-2`}
           >
